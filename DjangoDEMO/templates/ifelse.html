@@ -1,0 +1,11 @@
+{% include "nav.html" %}
+{% if flag %}
+    <h1>flag</h1>
+{% else %}
+    <h1>noflag</h1>
+{% endif %}
+
+{% for num in list %}
+    <h3>{{num}}</h3>
+{% endfor %}
+{# 注释 #}
