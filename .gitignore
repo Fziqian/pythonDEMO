@@ -3,3 +3,4 @@ node_modules/
 venv/
 DjangoDEMO/*.sqlite3
 DjangoDEMO/*.pyc
+*.pyc
