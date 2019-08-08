@@ -9,3 +9,5 @@ def ifelse(request):
     context={'flag':1==1}
     context['list']=range(5)
     return render(request,'ifelse.html',context)
+def user(request):
+    return render(request,'user.html')

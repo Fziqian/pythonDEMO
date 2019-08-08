@@ -16,9 +16,13 @@ Including another URLconf
 from django.conf.urls import url
 # from django.contrib import admin
 from . import view
+from actions import UserAction
 
 urlpatterns = [
     # url(r'^admin/', admin.site.urls),
-    url(r'^$', view.hello),
     url(r'^ifelse/', view.ifelse),
+    url(r'^user/', view.user),
+    url(r'^$', view.hello),
+    #actions
+    url(r'^getUserByName$',UserAction.getUserByName)
 ]
