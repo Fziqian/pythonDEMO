@@ -4,3 +4,4 @@ venv/
 DjangoDEMO/*.sqlite3
 DjangoDEMO/*.pyc
 *.pyc
+.idea/
